@@ -1,0 +1,23 @@
+@charset "UTF-8"   
+
+
+h1#principal{
+   text-align: center;
+}
+ 
+.verde{
+   color: blue;
+}
+
+div > p{
+   color: blue;
+
+   
+   display: none;
+}
+
+div:hover >p {
+   color: aqua;
+   display: block;
+
+}

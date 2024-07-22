@@ -1,0 +1,39 @@
+@charset "UTF-8"
+body {
+    background-color: rgb(29, 27, 27);
+}
+h1{
+    color: blue;
+}
+h2{
+    color:white;
+}
+ul{
+    color: whitesmoke;
+}
+p{
+    color: whitesmoke;
+}
+li{
+    color: #a361ef;
+    
+}
+small{
+    color: whitesmoke;
+}
+button{
+    text-decoration: none;
+    color: #a361ef;
+    border: solid 2px #a361ef;
+    padding: 5px 20px;
+    border-radius: 5px;
+    transition: all 0.0s ease;
+    font-size: 24px;
+}
+button:hover{
+    border-radius: 15px;
+    text-shadow: #de61ef;
+    box-shadow:0 0 12px 1px #ea61ef;
+
+}
+    

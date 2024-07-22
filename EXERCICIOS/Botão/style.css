@@ -1,0 +1,27 @@
+@charset "UTF-8"
+
+body {
+    background-color: black;
+}
+h1 {
+    color: white;
+}
+p{
+    color: white;
+}
+button{
+    text-decoration: none;
+    color: #a361ef;
+    border: solid 2px #a361ef;
+    padding: 5px 20px;
+    border-radius: 1px;
+    transition: all 0.0s ease;
+    font-size: 24px;
+}
+button:hover{
+    border-radius: 15px;
+    text-shadow: #a361ef;
+    box-shadow:0 0 12px 12px #a361ef;
+
+}
+    

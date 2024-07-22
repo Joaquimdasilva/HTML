@@ -1,0 +1,144 @@
+@charset "UTF-8";
+
+
+
+root{
+--cor0:#c5ebd6;
+--cor1: #83e1ad;
+--cor2:#3ddc84;
+--cor3:#2fa886;
+--cor5:#1a5c37;
+--cor6:#063d1e;
+}
+
+body{
+    background-color:#c5ebd6 ;
+    text-indent: 30px;
+    line-height: 1.5em;
+    font-size: 1em;
+    }
+
+
+main strong{
+    color: #1a5c37;
+    ;
+    padding: 2px 6px;
+}
+
+ main p{
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+}
+
+header{
+    background-image: linear-gradient(to bottom, #3ddc84, #033318cb);
+ background-color:#1a5c37;
+ min-height: 150px;
+ text-align: center;
+ padding-top: 40px;
+
+}
+
+header > h1 {
+
+    color:white ;
+    margin-bottom: 40px;
+    font-size: 3em;
+    text-shadow: 3px 3px 3px black;
+  
+
+   
+   
+}
+header > p {
+    color: white;
+    font-size: 1.2em;
+    max-width: 400px;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-shadow: 3px 3px 3px black;
+}
+
+nav {
+    background-color:#063d1e;
+    padding: 10px;
+    box-shadow: 0px 7px 7px rgba(70, 68, 68, 0.342);
+}
+
+nav > a {
+    color: white;
+    padding: 10px;
+    text-decoration:none ;
+    font-weight: bold;
+    border-radius: 6px;
+    transition-duration: 0.60s;
+}
+
+nav > a:hover{
+
+    background-color: rgb(3, 185, 3);
+   
+
+}
+
+main a:hover{
+    text-decoration: underline;
+    color: #063d1e;
+}
+
+
+main{
+    background-color:white;
+    min-width: 300px;
+    max-width: 1000px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px black;
+    margin: auto;
+    margin-bottom: 30px;
+    border-bottom-left-radius: 10px ;
+    border-bottom-right-radius: 10px;
+}
+
+footer{
+color: white;
+}
+
+
+main h1{
+    color:#1a5c37;
+   
+}
+main h2{
+    color: #1a5c37;
+    font-size: 1.3em;
+    background-image: linear-gradient(to right,#3ddc84, transparent) ;
+    text-indent: 8px;
+    margin: 15px 0px;
+    text-indent: 30px;
+    
+    
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    margin: auto;
+}
+
+main img{
+    width: 100%;
+}
+
+main img.pequena{
+    width: 50%;
+    display: block;
+}
+main a {
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #83e1ad;
+    padding: 3px 6px;
+}
